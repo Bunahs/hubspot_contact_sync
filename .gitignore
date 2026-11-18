@@ -1,0 +1,25 @@
+
+# Environment variables and credentials
+.env
+.env.*
+!.env.example
+service-account.json
+**/*service-account*.json
+
+# Sync state and logs
+data/sync_state.json
+state.json
+logs/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+.venv/
+
+# IDE and OS files
+.vscode/
+.DS_Store
+Thumbs.db
